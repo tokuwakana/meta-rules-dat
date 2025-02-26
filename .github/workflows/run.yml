@@ -171,6 +171,8 @@ jobs:
           cd community || exit 1
           mkdir -p data-lite
           curl -sSL https://raw.githubusercontent.com/xishang0128/rules/main/biliintl.list > ./data-lite/biliintl
+          curl -sSL https://raw.githubusercontent.com/tokuwakana/rules/refs/heads/main/Proxy%2B.list > ./data-lite/proxy+ 
+          curl -sSL https://raw.githubusercontent.com/tokuwakana/rules/refs/heads/main/Direct%2B.list > ./data-lite/direct+
           curl -sSL https://github.com/v2fly/domain-list-community/raw/master/data/ehentai > ./data-lite/ehentai
           curl -sSL https://github.com/v2fly/domain-list-community/raw/master/data/private > ./data-lite/private
 
